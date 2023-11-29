@@ -14,6 +14,7 @@ async function bootstrap() {
   // 全局管道
   app.useGlobalPipes(new ValidationPipe());
 
+  // swagger
   const config = new DocumentBuilder()
     .setTitle('后台管理系统')
     .setDescription('The API description')
